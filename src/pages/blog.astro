@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
-const pageTitle = "My Astro Learning Blog";
+const pageTitle = "Blogs - Muhammad Zainul Hakim";
 const allPosts = await Astro.glob("../pages/posts/*.md");
 const sortedPosts = allPosts.sort((a, b) =>
   b.frontmatter.pubDate.localeCompare(a.frontmatter.pubDate)
