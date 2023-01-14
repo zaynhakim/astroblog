@@ -16,6 +16,6 @@ tags: ["astro", "successes"]
 
 This blog is built with [Astro](https://astro.build) and deployed on [Netlify](https://netlify.com).
 
-I started building of this blog in November last year. Initially, this blog is my continuation of learning [Remix](https://remix.run) after being postponed due to IDCamp - Dicoding program. I was encountered several problems when deploying it to [fly.io](https://fly.io). Later I tried to rebuild this blog on Astro.
+I started building of this blog in November last year. Initially, this blog is my continuation of learning [Remix](https://remix.run) after being postponed due to IDCamp - Dicoding program. I was encountered several problems while deploying it to [fly.io](https://fly.io). Later I tried to rebuild this blog on Astro.
 
 I still excited to learn Remix, especially how to deploy it directly on the edge via Cloudflare pages and workers later.
