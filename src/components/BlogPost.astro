@@ -1,0 +1,22 @@
+---
+const { title, url, pubDate, description } = Astro.props;
+---
+
+<!-- <li><a href={url}>{title}</a></li> -->
+<li class="group hover:bg-indigo-400/5 dark:hover:bg-indigo-900/5">
+  <a href={url}>
+    <article class="rounded-md px-4 py-2">
+      <div class="flex flex-row items-baseline justify-between">
+        <h3
+          class="my-2 overflow-hidden text-ellipsis text-xl font-semibold group-hover:text-indigo-800 dark:group-hover:text-indigo-200"
+        >
+          {title}
+        </h3>
+        <p class="text-xs opacity-70">
+          {new Date(pubDate).toLocaleDateString()}
+        </p>
+      </div>
+      <p class="line-clamp-6">{description}</p>
+    </article>
+  </a>
+</li>

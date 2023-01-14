@@ -1,0 +1,139 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Home Page";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <main class="relative mx-auto min-h-screen">
+    <section class="mx-auto max-w-3xl px-3 py-4">
+      <article class="prose mx-auto dark:prose-invert lg:prose-xl">
+        <h3 class="text-lg">👋 Hi, I’m Muhammad Zainul Hakim</h3>
+        <p>
+          🌱 Currently I’m learning A to Z about web development, especially in
+          the front-end side.
+        </p>
+        <p>
+          I’m also a man who frequently asked by folks to fix their laptop when
+          they feel it is laggy, maintaining a little bit complex spreadsheet
+          data, and in a lesser extent helping them making graphic design.
+        </p>
+        <p>
+          Besides of that, I’m also teaching basic Arabic language course in an
+          infromal program at Pondok Pesantren Ali Maksum, Krapyak, Yogyakarta.
+        </p>
+      </article>
+    </section>
+    <section class="mx-auto max-w-3xl px-3 py-4">
+      <h2 class="mt-8 mb-4 px-4 text-xl font-medium sm:px-0">Featured Blogs</h2>
+      <div
+        class="grid gap-4 [grid-template-columns:repeat(auto-fit,minmax(240px,1fr))]"
+      >
+        <article
+          class="group mx-auto flex h-44 w-full max-w-sm flex-col justify-end rounded-2xl bg-sky-200/10 bg-[url('/images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg')] bg-cover bg-no-repeat text-sky-900 dark:bg-sky-700/10 dark:text-sky-100"
+        >
+          <div
+            class="relative w-full rounded-b-xl bg-gray-100/70 dark:bg-gray-900/70"
+          >
+            <div
+              class="relative w-full rounded-b-xl bg-sky-200/10 px-4 pt-3 pb-2 backdrop-blur group-hover:backdrop-blur-0 dark:bg-sky-700/10"
+            >
+              <h3
+                class="text-ellipsis text-xl font-semibold line-clamp-1 group-hover:line-clamp-2"
+              >
+                Into the Web Development World
+              </h3>
+              <p class="line-clamp-1 group-hover:line-clamp-2">
+                How It's Started
+              </p>
+            </div>
+          </div>
+        </article>
+        <article
+          class="group mx-auto flex h-44 w-full max-w-sm flex-col justify-end rounded-2xl bg-sky-200/10 bg-[url('/images/spreadsheet.png')] bg-cover bg-no-repeat text-sky-900 dark:bg-sky-700/10 dark:text-sky-100"
+        >
+          <div
+            class="relative w-full rounded-b-xl bg-gray-100/70 dark:bg-gray-900/70"
+          >
+            <div
+              class="relative w-full rounded-b-xl bg-sky-200/10 px-4 pt-3 pb-2 backdrop-blur group-hover:backdrop-blur-0 dark:bg-sky-700/10"
+            >
+              <h3
+                class="text-ellipsis text-xl font-semibold line-clamp-1 group-hover:line-clamp-2"
+              >
+                Managing Students Data in Google Sheets
+              </h3>
+              <p class="line-clamp-1 group-hover:line-clamp-2">
+                How I ended up putting everything in spreadsheets
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <h2 class="mt-8 mb-4 px-4 text-xl font-medium sm:px-0">
+        Featured Projects
+      </h2>
+      <div
+        class="grid gap-4 [grid-template-columns:repeat(auto-fit,minmax(240px,1fr))]"
+      >
+        <article
+          class="group mx-auto flex h-44 w-full max-w-sm flex-col justify-end rounded-2xl bg-sky-200/10 bg-[url('/images/this-site.jpg')] bg-cover bg-no-repeat text-sky-900 dark:bg-sky-700/10 dark:text-sky-100"
+        >
+          <div
+            class="relative w-full rounded-b-xl bg-gray-100/70 dark:bg-gray-900/70"
+          >
+            <div
+              class="relative w-full rounded-b-xl bg-sky-200/10 px-4 pt-3 pb-2 backdrop-blur group-hover:backdrop-blur-0 dark:bg-sky-700/10"
+            >
+              <h3
+                class="text-ellipsis text-xl font-semibold line-clamp-1 group-hover:line-clamp-2"
+              >
+                This Blog
+              </h3>
+              <p>How it's built</p>
+            </div>
+          </div>
+        </article>
+        <article
+          class="group mx-auto flex h-44 w-full max-w-sm flex-col justify-end rounded-2xl bg-sky-200/10 bg-[url('/images/diskord-ss.jpg')] bg-cover bg-no-repeat text-sky-900 dark:bg-sky-700/10 dark:text-sky-100"
+        >
+          <div
+            class="relative w-full rounded-b-xl bg-gray-100/70 dark:bg-gray-900/70"
+          >
+            <div
+              class="relative w-full rounded-b-xl bg-sky-200/10 px-4 pt-3 pb-2 backdrop-blur group-hover:backdrop-blur-0 dark:bg-sky-700/10"
+            >
+              <h3
+                class="text-ellipsis text-xl font-semibold line-clamp-1 group-hover:line-clamp-2"
+              >
+                Diskord Forum
+              </h3>
+              <p class="line-clamp-1 group-hover:line-clamp-2">
+                A wannabe twitter and reddit forum
+              </p>
+            </div>
+          </div>
+        </article>
+        <article
+          class="group mx-auto flex h-44 w-full max-w-sm flex-col justify-end rounded-2xl bg-sky-200/10 bg-[url('/images/almaweb.jpg')] bg-cover bg-no-repeat text-sky-900 dark:bg-sky-700/10 dark:text-sky-100"
+        >
+          <div
+            class="relative w-full rounded-b-xl bg-gray-100/70 dark:bg-gray-900/70"
+          >
+            <div
+              class="relative w-full rounded-b-xl bg-sky-200/10 px-4 pt-3 pb-2 backdrop-blur group-hover:backdrop-blur-0 dark:bg-sky-700/10"
+            >
+              <h3
+                class="text-ellipsis text-xl font-semibold line-clamp-1 group-hover:line-clamp-2"
+              >
+                Ali Maksum (Past) Site
+              </h3>
+              <p class="line-clamp-1 group-hover:line-clamp-2">
+                My first successfully deployed project
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

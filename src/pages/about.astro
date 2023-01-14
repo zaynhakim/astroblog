@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "About Me";
+const happy = true;
+const finished = true;
+const goal = 3;
+
+const identity = {
+  firstName: "Sarah",
+  country: "Canada",
+  occupation: "Technical Writer",
+  hobbies: ["photography", "birdwatching", "baseball"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <div class="prose">
+    <h1>About me</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur,
+      laborum aliquam quod veritatis accusamus dolore itaque aperiam quisquam,
+      maxime qui nisi quasi totam magni voluptatem dolorem at voluptatum sed
+      vel.
+    </p>
+  </div>
+</BaseLayout>
