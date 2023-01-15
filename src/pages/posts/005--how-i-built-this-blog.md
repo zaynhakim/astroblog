@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: How I built this blog
-author: Astro Learner
+author: Muhammad Zainul Hakim
 description: "Start learning Astro"
 image:
   url: "https://astro.build/assets/hero_NkT0b.avif"

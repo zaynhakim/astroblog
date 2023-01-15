@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Into the web development world
-author: Astro Learner
+author: "Muhammad Zainul Hakim"
 description: "How it's started"
 image:
   url: "https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg"

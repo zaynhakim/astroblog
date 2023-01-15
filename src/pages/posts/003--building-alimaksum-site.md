@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Building alimaksum.com replacement site
-author: Astro Learner
+author: Muhammad Zainul Hakim
 description: "How I deploy static site for the first time"
 image:
   url: "https://astro.build/assets/blog/community-day/cover.jpg"

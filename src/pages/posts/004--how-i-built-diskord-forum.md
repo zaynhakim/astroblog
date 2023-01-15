@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Diskord Forum
-author: Astro Learner
+author: Muhammad Zainul Hakim
 description: "My implementation of react course at Dicoding Academy"
 image:
   url: "https://astro.build/assets/hero_NkT0b.avif"
