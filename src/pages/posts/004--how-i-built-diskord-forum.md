@@ -6,7 +6,7 @@ description: "My implementation of react course at Dicoding Academy"
 image:
   url: "https://astro.build/assets/hero_NkT0b.avif"
   alt: "Earth seen from space."
-pubDate: 2022-08-08
+pubDate: 2023-01-11
 tags: ["astro", "successes"]
 ---
 
