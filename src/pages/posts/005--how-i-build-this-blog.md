@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: How I built this blog
+title: How I build this blog
 author: Muhammad Zainul Hakim
 description: "Start learning Astro"
 image:
